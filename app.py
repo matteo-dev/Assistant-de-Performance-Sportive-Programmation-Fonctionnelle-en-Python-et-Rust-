@@ -4,8 +4,8 @@
 # Importation des modules nécessaires 
 import streamlit as st # Framework pour créer des applications web interactives en Python
 from datetime import date
-from src.models import WorkoutRecord
-from src.analytics import extract_squat_progression, calculate_total_volume, calculate_1rm_epley, calculate_acwr, extract_bodyweight_trend, calculate_ewma, project_target_date
+from models import WorkoutRecord
+from analytics import extract_squat_progression, calculate_total_volume, calculate_1rm_epley, calculate_acwr, extract_bodyweight_trend, calculate_ewma, project_target_date
 
 
 # Utilisation de st.cache_data pour mettre en cache les données simulées afin d'éviter de les recalculer à chaque interaction 
