@@ -4,8 +4,8 @@
 # Importation des modules nécessaires pour les tests
 import pytest # Framework de test pour Python
 from datetime import date
-from src.models import WorkoutRecord
-from src.analytics import (
+from models import WorkoutRecord
+from analytics import (
     calculate_1rm_epley,
     extract_squat_progression,
     calculate_total_volume,
