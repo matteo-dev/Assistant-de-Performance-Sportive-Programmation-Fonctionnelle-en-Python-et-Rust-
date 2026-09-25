@@ -6,7 +6,7 @@ from itertools import accumulate # Pour effectuer des opérations cumulatives su
 from datetime import date, timedelta
 from typing import Tuple
 from functools import reduce # Pour effectuer des réductions sur des itérables
-from src.models import WorkoutRecord, WorkoutHistory
+from models import WorkoutRecord, WorkoutHistory
 
 
 # Fonction pure pour calculer le 1 Rep Max estimé via la formule d'Epley
